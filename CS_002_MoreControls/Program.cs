@@ -14,9 +14,12 @@ namespace CS_002_MoreControls
         [STAThread]
         static void Main()
         {
+            MessageBox.Show("Hello there!");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmMoreControls());
+            //Application.Run(new FrmTwo());
+            MessageBox.Show("Come back soon.");
         }
     }
 }
